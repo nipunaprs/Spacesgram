@@ -1,0 +1,22 @@
+.footer {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    padding: 25px;
+    background-color: #fff;
+    margin-top: 20px;
+    box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.5);
+}
+
+.a {
+    display: block;
+    
+}
+
+.p {
+    text-decoration: none;
+}
+
+a:link{
+    text-decoration: none!important;
+  }

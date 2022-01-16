@@ -1,0 +1,134 @@
+.card {
+    padding: 8px;
+    width: 40%;
+    justify-content: space-between;
+    margin: 10px auto;
+    display: block;
+    align-items: center;
+    box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.5);
+    text-align: left;
+}
+
+.image-info {
+    padding: 2px;
+    margin-bottom: 5px;
+    /* background-color: lightgrey; */
+    display: flex;
+    justify-content: space-between;
+    /* background-color: #dbdbdb; */
+    background-color: rgb(216, 216, 216);
+}
+
+.like-section {
+
+}
+
+.btn {
+    font-size: 18px;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.like-button {
+    font-size: 25px;
+    
+}
+
+
+
+.read-button {
+    font-size: 15px;
+    padding: 5px;
+
+}
+
+.space-image {
+    width: 100%;
+}
+
+.description {
+    
+    text-align: left;
+    /* white-space: nowrap; */
+    
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+            line-clamp: 4;
+    -webkit-box-orient: vertical;
+    
+    overflow: hidden;
+    
+
+       
+}
+
+.description-full {
+    
+    text-align: left;
+    
+}
+
+.top-info {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    font-weight: 700;
+}
+
+
+.like-section:active button {
+    
+    animation: click 0.3s ease-out;
+}
+
+@keyframes click {
+    25% {
+        transform: rotate(-20deg);
+        font-size: 25px;
+    }
+    50% {
+        transform: rotate(20deg);
+        font-size: 28px;
+    }
+    75% {
+        transform: rotate(-10deg);
+        font-size: 26px;
+    }
+    100% {
+        transform: rotate(10deg);
+        font-size: 25px;
+    }
+    
+}
+
+
+@media only screen and (max-width: 720px) {
+    .card {
+        
+        width: 90%;
+        
+    }
+
+    .description {
+        -webkit-line-clamp: 2;
+            line-clamp: 2;
+    }
+
+}
+
+@media only screen and (max-width: 1000px) and (min-width: 720px) {
+    .card {
+        
+        width: 80%;
+        
+    }
+
+    .description {
+        -webkit-line-clamp: 2;
+            line-clamp: 2;
+    }
+
+}

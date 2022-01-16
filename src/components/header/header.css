@@ -1,0 +1,25 @@
+.web {
+    display: block;
+    flex: 1;
+    align-items: center;
+    background-color: #fff;
+    margin-bottom: 20px;
+    box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.1);
+}
+
+.mobile-logo {
+    width: 80px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    
+}
+
+.main-title {
+    display: center;
+    align-items: center;
+    font-size: 25px;
+    text-align: center;
+    margin-top: -15px;
+    
+}
