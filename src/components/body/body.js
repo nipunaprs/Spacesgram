@@ -11,6 +11,7 @@ function Body() {
     const [isLoading, setIsLoading] = useState(false)
     const [multiplier, setMultiplier] = useState(1)
     const [allowFilter,setAllowFilter] = useState(false)
+    
 
     //Get images
     useEffect(() => {
@@ -43,7 +44,11 @@ function Body() {
                 
                 <div className='dates'>
                 <div><a onClick={() => {allowFilter ? setAllowFilter(false) : setAllowFilter(true)}}>Filter By Dates</a></div>
-                    {allowFilter ? ( 
+                    
+                </div>
+                
+                <div>
+                {allowFilter ? ( 
                         <>
                         <input type="date" id='start_date' className='date-input'/>
                         -                    
@@ -65,17 +70,17 @@ function Body() {
                     ) : (
                         ""
                     )}
-                    
                 </div>
-
                 
                 
 
                 {space?.map((space,i) => (
                     
-                    <Card 
+                        <Card 
                         space={space}   
-                    />
+                        />
+                    
+                    
 
                 ))}
 

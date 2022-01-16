@@ -34,11 +34,13 @@ function Card({space}) {
             </div>
 
             <div className='like-section'>
-                <button className='btn like-button' onClick={(e) => {
+                <button className='btn like-button' title='Like Image' onClick={(e) => {
                     e.preventDefault();
                     e.target.style.backgroundColor == 'red' ? e.target.style.backgroundColor = 'white' : e.target.style.backgroundColor = 'red';
-
+                    e.target.style.backgroundColor == 'red' ? setClicked(true) : setClicked(false)
                 }}>🚀</button>
+
+                <a className='share' href={space.url} target="_blank" title='Share Image'>🔗</a>
             </div>
 
         </div>
