@@ -1,5 +1,5 @@
 # Spacestagram 
-##Space-Themed Social Media Brought To You By NASA APOD API
+## Space-Themed Social Media Brought To You By NASA APOD API
 
 This project was created for the 2022 Shopify Intern Challenge! You can view a live deployment of the project here (https://spacestagrams.netlify.app/).' 
 
